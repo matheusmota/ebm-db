@@ -2,9 +2,21 @@ $(document).ready(function() {
 
 	console.log("ready!");
 
+
+
+// Without JQuery
+var slider = new Slider('#pretestslider', {
+	formatter: function(value) {
+
+		$("#pretestvalue").html('' + value +'%');
+	}
+});
+
+
+
 	$('input:checkbox').change(function() {
 
-		$(".progress-bar").each(function() {
+		$(".progress-bara").each(function() {
 
 			var percent = Math.floor(Math.random() * 100) + 1
 
