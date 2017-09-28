@@ -24,6 +24,8 @@
 		<!-- Graph-related -->
 		<script type="text/javascript" src="js/vis.js"></script>
 		<link href="css/vis.css" rel="stylesheet" type="text/css">
+		<link href="css/bootstrap-slider.css" rel="stylesheet" type="text/css">
+		<link href="css/bootstrap-slider.min.css" rel="stylesheet" type="text/css">
 	</head>
 	<body id="page-top">
 		<!-- Navigation -->
@@ -126,42 +128,53 @@
 				</ol>
 				
 				<div class="row justify-content-md-center">
-					<div class="col-sm-6">
+					<div class="col-sm-12">
 						<!-- Area: Scenario Setup -->
-						<div class="card  mb-4">
+						<div class="card  mb-1">
 							<div class="card-header text-center">
 								<i class="fa fa-cogs"></i> Scenario Setup
 							</div>
 							<div class="card-block">
-								
-								<div class="container">
+								<div class="row">
+									<div class="col-4">
 									<form>
 										<div class="form-group row">
-											<label for="chiefcomplaint" class="col-sm-3 col-form-label">Context:</label>
-											<div class="col-sm-9">
+											<label for="chiefcomplaint" class="col-sm-5 col-form-label ">Context:</label>
+											<div class="col-sm-7">
 												<select disabled="true" id="chiefcomplaint" class="form-control">
 													<option>Emergency</option>
 												</select>
 											</div>
 										</div>
 										<div class="form-group row">
-											<label for="chiefcomplaint" class="col-sm-3 col-form-label">Chief Complaint:</label>
-											<div class="col-sm-9">
+											<label for="chiefcomplaint" class="col-sm-5 col-form-label">Chief Complaint:</label>
+											<div class="col-sm-7">
 												<select disabled="true" id="chiefcomplaint" class="form-control">
 													<option>Thoracic Pain</option>
 												</select>
 											</div>
 										</div>
+																					
+									</form>
+									</div>
+									<div class="col-6">
+									<form>
+
 										<div class="form-group row">
-											<label for="chiefcomplaint" class="col-sm-3 col-form-label">Simulation source:</label>
-											<div class="col-sm-9">
-												<select disabled="true" id="chiefcomplaint" class="form-control">
-													<option>EBM-DB meta-analyses
-													</option>
-												</select>
+											<label for="chiefcomplaint" class="col-sm-5 col-form-label">Initial Clinical Features:</label>
+											<div class="col-sm-7">
+												<b>[Male]</b><b>[Age > 65y]</b>
 											</div>
 										</div>
+										<div class="form-group row">
+											<label for="chiefcomplaint" class="col-sm-5 col-form-label">Pretest:</label>
+											<div class="col-sm-7">
+												<input id="pretestslider" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="25"/>
+												<span  id="pretestvalue">25%</span>
+											</div>
+										</div>										
 									</form>
+									</div>
 								</div>
 							</div>
 							<div class="card-footer small text-muted">
@@ -171,18 +184,18 @@
 					</div>
 				</div>
 				<!-- Area: Fidings  -->
-				<div class="card mb-3" id="clinicalfindings">
-					<div class="card-header">
-						<i class="fa fa-search"></i> Clinical Fidings
+				<div class="card mb-1" id="clinicalfindings">
+					<div class="card-header text-center">
+						<i class="fa fa-search"></i> Clinical Fidings <span class="badge badge-info">Signs</span>  <span class="badge badge-primary">Symptoms</span>
 					</div>
 					<div class="card-block">
 						
 						<div class="row">
-							<div class="col-3">
+							<div class="col-2">
 								
-								<div class="form-group text-center">
+<!-- 								<div class="form-group text-center">
 									<span class="badge badge-primary">Symptoms</span>
-								</div>
+								</div> -->
 								<div class="form-check">
 									<label class="form-check-label">
 										<input class="form-check-input" disabled="true"  type="checkbox" value="" checked="true">
@@ -198,50 +211,29 @@
 								<div class="form-check">
 									<label class="form-check-label">
 										<input class="form-check-input" type="checkbox" value="" id="finding_0">
+										History of Hypertension
+									</label>
+								</div>								
+							<!-- 	<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="" id="finding_0">
 										Pain in chest or left arm
 									</label>
-								</div>
-								<div class="form-check">
-									<label class="form-check-label">
-										<input class="form-check-input" type="checkbox" value="" id="finding_0">
-										Chest pain radiation: Left Arm
-									</label>
-								</div>
-								<div class="form-check">
-									<label class="form-check-label">
-										<input class="form-check-input" type="checkbox" value="" id="finding_0">
-										Chest pain radiation: Right Arm
-									</label>
-								</div>
-								<div class="form-check">
-									<label class="form-check-label">
-										<input class="form-check-input" type="checkbox" value="" id="finding_0">
-										Chest pain radiation: Both Arms
-									</label>
-								</div>
+								</div> -->
+								
 							</div>
-							<div class="col-3">
-								<div class="form-group text-center">
+							<div class="col-2">
+<!-- 								<div class="form-group text-center">
 									<span class="badge badge-info">Signs</span>
-								</div>
-								<div class="form-check">
-									<label class="form-check-label">
-										<input class="form-check-input" type="checkbox" value="" id="finding_0">
-										Third heart sound on auscultation
-									</label>
-								</div>
+								</div> -->
+								
 								<div class="form-check">
 									<label class="form-check-label">
 										<input class="form-check-input" type="checkbox" value="" id="finding_0">
 										Pulse Deficit
 									</label>
 								</div>
-								<div class="form-check">
-									<label class="form-check-label">
-										<input class="form-check-input" type="checkbox" value="" id="finding_0">
-										History of Hypertension
-									</label>
-								</div>
+
 								<div class="form-check">
 									<label class="form-check-label">
 										<input class="form-check-input" type="checkbox" value="" id="finding_0">
@@ -254,14 +246,14 @@
 										Nausea or vomiting
 									</label>
 								</div>
-								<div class="form-check">
+<!-- 								<div class="form-check">
 									<label class="form-check-label">
 										<input class="form-check-input" type="checkbox" value="" id="finding_0">
 										Diaphoresis
 									</label>
-								</div>
+								</div> -->
 							</div>
-							<div class="col-3">
+<!-- 							<div class="col-3">
 								<div class="form-group text-center">
 									<span class="badge badge-success">Characteristics</span>
 								</div>
@@ -284,11 +276,11 @@
 										Sex: Female
 									</label>
 								</div>
-							</div>
-							<div class="col-3">
-								<div class="form-group text-center">
+							</div> -->
+							<div class="col-2">
+<!-- 								<div class="form-group text-center">
 									<span class="badge badge-default">Other</span>
-								</div>
+								</div> -->
 								<div class="form-check">
 									<label class="form-check-label">
 										<input class="form-check-input" type="checkbox" value="" id="finding_0">
@@ -307,6 +299,8 @@
 										Neck vein distention
 									</label>
 								</div>
+							</div>
+							<div class="col-3">								
 								<div class="form-check">
 									<label class="form-check-label">
 										<input class="form-check-input" type="checkbox" value="" id="finding_0">
@@ -316,11 +310,46 @@
 								<div class="form-check">
 									<label class="form-check-label">
 										<input class="form-check-input" type="checkbox" value="" id="finding_0">
+										History of myocardial infarction
+									</label>
+								</div>								
+<!-- 								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="" id="finding_0">
 										Hypotension (systolic blood pressure <80 mm Hg)
 									</label>
-								</div>
-								
+								</div> -->
+							
 							</div>
+							<div class="col-3">
+<!-- 								<div class="form-group text-center">
+									<span class="badge badge-primary">Symptoms</span>
+								</div> -->							
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="" id="finding_0">
+										Chest pain radiation: Left Arm
+									</label>
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="" id="finding_0">
+										Chest pain radiation: Right Arm
+									</label>
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="" id="finding_0">
+										Chest pain radiation: Both Arms
+									</label>
+								</div>
+<!-- 								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" value="" id="finding_0">
+										Third heart sound on auscultation
+									</label>
+								</div> -->
+							</div>							
 						</div>
 						
 					</div>
@@ -328,7 +357,7 @@
 					</div>
 				</div>
 				<div class="card mb-3">
-					<div class="card-header">
+					<div class="card-header text-center">
 						<i class="fa fa-cogs"></i> Diagnostic Analysis
 					</div>
 					<div class="card-block">
@@ -343,7 +372,7 @@
 									</div>
 									
 								</div>
-								<div class="row mb-1">
+								<!--<div class="row mb-1">
 									<div class="col col-lg-2 ">
 										Pretest:
 									</div>
@@ -353,14 +382,14 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<div class="row">
 									<div class="col col-lg-2">
 										Posttest:
 									</div>
 									<div class="col col-lg-10">
 										<div class="progress">
-											<div class="bar progress-bar progress-bar-striped progress-bar-animated  bg-info"" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%">0%
+											<div class="bar progress-bar progress-bar-striped progress-bar-animated  bg-info"" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 2%">2%
 											</div>
 										</div>
 									</div>
@@ -376,7 +405,7 @@
 									</div>
 									
 								</div>
-								<div class="row mb-1">
+								<!--<div class="row mb-1">
 									<div class="col col-lg-2 ">
 										Pretest:
 									</div>
@@ -386,7 +415,7 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<div class="row">
 									<div class="col col-lg-2">
 										Posttest:
@@ -409,7 +438,7 @@
 									</div>
 									
 								</div>
-								<div class="row mb-1">
+								<!--<div class="row mb-1">
 									<div class="col col-lg-2 ">
 										Pretest:
 									</div>
@@ -419,7 +448,7 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<div class="row">
 									<div class="col col-lg-2">
 										Posttest:
@@ -444,7 +473,7 @@
 									</div>
 									
 								</div>
-								<div class="row mb-1">
+								<!--<div class="row mb-1">
 									<div class="col col-lg-2 ">
 										Pretest:
 									</div>
@@ -454,7 +483,7 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<div class="row">
 									<div class="col col-lg-2">
 										Posttest:
@@ -477,7 +506,7 @@
 									</div>
 									
 								</div>
-								<div class="row mb-1">
+								<!--<div class="row mb-1">
 									<div class="col col-lg-2 ">
 										Pretest:
 									</div>
@@ -487,14 +516,14 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<div class="row">
 									<div class="col col-lg-2">
 										Posttest:
 									</div>
 									<div class="col col-lg-10">
 										<div class="progress">
-											<div class="bar progress-bar progress-bar-striped progress-bar-animated  bg-info"" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%">0%
+											<div class="bar progress-bar progress-bar-striped progress-bar-animated  bg-info"" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%
 											</div>
 										</div>
 									</div>
@@ -509,7 +538,7 @@
 									</div>
 									
 								</div>
-								<div class="row mb-1">
+								<!--<div class="row mb-1">
 									<div class="col col-lg-2 ">
 										Pretest:
 									</div>
@@ -519,7 +548,7 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<div class="row">
 									<div class="col col-lg-2">
 										Posttest:
@@ -549,10 +578,10 @@
 										</ul>
 									</div>
 									
-									<li class="list-group-item justify-content-between">
+									<!-- <li class="list-group-item justify-content-between">
 										Base 2
 										<span class="badge badge-default badge-pill basecounter">2</span>
-									</li>
+									</li> -->
 									<li class="list-group-item justify-content-between">
 										Other
 										<span class="badge badge-default badge-pill basecounter">1</span>
@@ -586,7 +615,7 @@
 						</div>
 						<div class="card-block">
 							<!-- Button trigger modal -->
-							<div class="table-responsive">
+					<!-- 		<div class="table-responsive">
 								<table class="table table-bordered" width="100%" id="dataTable" cellspacing="0">
 									<thead>
 										<tr>
@@ -606,7 +635,7 @@
 										
 									</tbody>
 								</table>
-							</div>
+							</div> -->
 						</div>
 						<div class="card-footer small text-muted">
 						</div>
@@ -650,6 +679,8 @@
 		<script src="vendor/datatables/dataTables.bootstrap4.js"></script>
 		<!-- Custom scripts for this template -->
 		<!-- <script src="js/sb-admin.min.js"></script> -->
+		<script src="js/bootstrap-slider.js"></script>
+		<script src="js/bootstrap-slider.min.js"></script>
 		<script src="js/ebmdb.js"></script>
 	</body>
 </html>
