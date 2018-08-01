@@ -1,0 +1,40 @@
+id;label;0.4;0.5;0.6;0.7;0.8;0.9
+1;Peripheral arterial disease;15;3;3;1;1;1
+2;Pain similar to previous ischemia;1;0;0;0;0;0
+3;Change in pattern during 24h;1;0;0;0;0;0
+4;Pain reproduced by palpation;2;1;0;0;0;0
+5;Ischemic ECG;6;1;0;0;0;0
+6;History of hypertension;19;8;0;0;0;0
+7;Sudden chest pain;8;2;1;1;1;0
+8;Tearing or ripping pain;2;1;0;0;0;0
+9;Migrating pain;6;6;1;1;0;0
+10;Pulse deficit;7;5;0;0;0;0
+11;Focal neurological deficit;0;0;0;0;0;0
+12;Diastolic murmur;9;4;0;0;0;0
+13;Enlarged aorta or wide mediastinum;1;0;0;0;0;0
+14;Left ventricular hypertrophy on admission electrocardiogram;24;2;1;1;0;0
+15;Pain in chest or left arm;3;2;0;0;0;0
+16;Chest pain radiation: Right shoulder;3;1;1;0;0;0
+17;Chest pain radiation: Left arm;3;2;2;0;0;0
+18;Chest pain radiation: left and right arm;2;2;0;0;0;0
+19;Chest pain most important symptom;2;1;1;0;0;0
+20;History of myocardial infarction;17;10;2;2;1;1
+21;Nausea or vomiting;2;2;0;0;0;0
+22;Diaphoresis;1;1;1;1;1;1
+23;Third heart sound on auscultation;2;1;1;0;0;0
+24;Hypotension (systolic blood pressure 80 mm Hg);9;3;0;0;0;0
+25;Pulmonary crackles on auscultation;0;0;0;0;0;0
+26;Pleuritic chest pain;8;2;1;1;1;0
+27;Chest pain sharp or stabbing ;2;1;1;0;0;0
+28;Positional chest pain;8;2;1;1;1;0
+29;Chest pain reproduced by palpation;2;1;1;0;0;0
+30;New ST-segment elevation ?1 mm;3;2;1;0;0;0
+31;New Q wave;5;4;2;0;0;0
+32;Any ST-segment elevation;3;3;2;1;0;0
+33;New conduction defect;1;1;1;0;0;0
+34;New ST-segment depression;3;2;1;1;0;0
+35;Any Q wave;5;4;2;0;0;0
+36;Any ST-segment depression;3;2;1;1;0;0
+37;T-wave peaking and/or inversion ?1 mm;1;0;0;0;0;0
+38;New T-wave inversion;2;2;0;0;0;0
+39;Any conduction defect;1;1;1;0;0;0

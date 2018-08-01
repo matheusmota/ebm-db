@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="c380e40c-9205-4013-8040-bdf42b1d28df"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"title": "{'commonName': 'Influenza', 'uri': 'http://example/h2381n'}", "id": 3621, "label": "Influenza", "group": "Disease"}, {"title": "{'title': 'Cenario #1434112'}", "id": 3627, "label": "Cenario #1434112", "group": "Cenario"}, {"title": "{'title': 'LR- 0.8 (0.7\u20130.9)'}", "id": 3629, "label": "LR- 0.8 (0.7\u20130.9)", "group": "LR"}, {"title": "{'title': 'LR+ 5.4 (3.8\u20137.7)'}", "id": 3628, "label": "LR+ 5.4 (3.8\u20137.7)", "group": "LR"}, {"title": "{'title': 'Acute onset'}", "id": 3631, "label": "Acute onset", "group": "Finding"}, {"title": "{'title': 'Cough'}", "id": 3632, "label": "Cough", "group": "Finding"}, {"title": "{'title': 'Feverishness'}", "id": 3623, "label": "Feverishness", "group": "Finding"}, {"title": "{'title': 'age >= 60'}", "id": 3624, "label": "age >= 60", "group": "Finding"}, {"title": "{'title': 'Fever'}", "id": 3630, "label": "Fever", "group": "Finding"}, {"title": "{'title': 'LR- NS'}", "id": 3626, "label": "LR- NS", "group": "LR"}, {"title": "{'authors': 'Barnet Eskin, MD, Ph; Robert Levy, MD', 'title': 'Does This Patient Have Influenza?', 'doi': 'doi.org/10.1016/j.annemergmed.2006.08.016'}", "id": 3620, "label": "doi.org/10.1016/j.annemergmed.2006.08.016", "group": "Publication"}, {"title": "{'title': 'Cenario #9832'}", "id": 3622, "label": "Cenario #9832", "group": "Cenario"}, {"title": "{'title': 'LR+ 2.1 (1.2\u20133.7)'}", "id": 3625, "label": "LR+ 2.1 (1.2\u20133.7)", "group": "LR"}];
+      var edges = [{"to": 3629, "label": "observed_result", "from": 3627}, {"to": 3628, "label": "observed_result", "from": 3627}, {"to": 3631, "label": "presence", "from": 3627}, {"to": 3632, "label": "presence", "from": 3627}, {"to": 3623, "label": "presence", "from": 3627}, {"to": 3624, "label": "presence", "from": 3627}, {"to": 3627, "label": "has_result", "from": 3620}, {"to": 3622, "label": "has_result", "from": 3620}, {"to": 3621, "label": "has_subject", "from": 3620}, {"to": 3626, "label": "observed_result", "from": 3622}, {"to": 3625, "label": "observed_result", "from": 3622}, {"to": 3624, "label": "presence", "from": 3622}, {"to": 3623, "label": "presence", "from": 3622}];
+
+      var container = document.getElementById("c380e40c-9205-4013-8040-bdf42b1d28df");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

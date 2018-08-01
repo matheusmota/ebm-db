@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="0f9033fa-023f-4a75-ada7-f7f4eae59b9b"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"title": "{'authors': 'Barnet Eskin, MD, Ph; Robert Levy, MD', 'title': 'Does This Patient Have Influenza?', 'doi': 'doi.org/10.1016/j.annemergmed.2006.08.016'}", "id": 3651, "label": "doi.org/10.1016/j.annemergmed.2006.08.016", "group": "Publication"}, {"title": "{'commonName': 'Influenza', 'uri': 'http://example/h2381n'}", "id": 3652, "label": "Influenza", "group": "Disease"}, {"title": "{'title': 'LR+ 2.1 (1.2\u20133.7)'}", "id": 3655, "label": "LR+ 2.1 (1.2\u20133.7)", "group": "LR"}, {"title": "{'title': 'Feverishness'}", "id": 3653, "label": "Feverishness", "group": "Finding"}, {"title": "{'title': 'LR- NS'}", "id": 3656, "label": "LR- NS", "group": "LR"}, {"title": "{'title': 'age >= 60'}", "id": 3654, "label": "age >= 60", "group": "Finding"}];
+      var edges = [{"to": 3652, "label": "has_subject", "from": 3651}, {"to": 3654, "label": "presence", "from": 3652}, {"to": 3653, "label": "[LR-: NS]", "from": 3652}, {"to": 3653, "label": "[LR+: 2.1 (1.2\u20133.7)]", "from": 3652}];
+
+      var container = document.getElementById("0f9033fa-023f-4a75-ada7-f7f4eae59b9b");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

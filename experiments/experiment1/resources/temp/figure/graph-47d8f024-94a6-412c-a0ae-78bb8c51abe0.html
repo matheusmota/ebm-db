@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="47d8f024-94a6-412c-a0ae-78bb8c51abe0"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"title": "{'title': 'Cenario #1434112'}", "id": 3548, "label": "Cenario #1434112", "group": "Cenario"}, {"title": "{'title': 'age >= 60'}", "id": 3547, "label": "age >= 60", "group": "Finding"}, {"title": "{'title': 'Feverishness'}", "id": 3546, "label": "Feverishness", "group": "Finding"}, {"title": "{'authors': 'Barnet Eskin, MD, Ph; Robert Levy, MD', 'title': 'Does This Patient Have Influenza?', 'doi': 'doi.org/10.1016/j.annemergmed.2006.08.016'}", "id": 3543, "label": "doi.org/10.1016/j.annemergmed.2006.08.016", "group": "Publication"}, {"title": "{'title': 'Cenario #9832'}", "id": 3545, "label": "Cenario #9832", "group": "Cenario"}, {"title": "{'commonName': 'Influenza', 'uri': 'http://example/h2381n'}", "id": 3544, "label": "Influenza", "group": "Disease"}, {"title": "{'title': 'Feverishness'}", "id": 3549, "label": "Feverishness", "group": "Finding"}];
+      var edges = [{"to": 3548, "label": "has_result", "from": 3543}, {"to": 3545, "label": "presence", "from": 3543}, {"to": 3545, "label": "has_result", "from": 3543}, {"to": 3544, "label": "has_subject", "from": 3543}];
+
+      var container = document.getElementById("47d8f024-94a6-412c-a0ae-78bb8c51abe0");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

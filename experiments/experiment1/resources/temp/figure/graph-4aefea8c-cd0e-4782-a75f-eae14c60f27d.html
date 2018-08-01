@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="4aefea8c-cd0e-4782-a75f-eae14c60f27d"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"label": "Portia Config", "id": 3732, "title": "{'title': 'Portia Config'}", "group": "example1"}, {"label": "Portia Event", "id": 3733, "title": "{'title': 'Portia Event'}", "group": "example2"}, {"label": "Sign", "id": 3734, "title": "{'title': 'Sign'}", "group": "example3"}, {"label": "Portia Package", "id": 3731, "title": "{'title': 'Portia Package'}", "group": "example0"}];
+      var edges = [];
+
+      var container = document.getElementById("4aefea8c-cd0e-4782-a75f-eae14c60f27d");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

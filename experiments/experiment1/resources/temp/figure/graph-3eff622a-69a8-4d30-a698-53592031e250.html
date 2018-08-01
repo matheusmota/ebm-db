@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="3eff622a-69a8-4d30-a698-53592031e250"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"label": "Sign", "id": 3685, "title": "{'title': 'Sign'}", "group": "example3"}, {"label": "Characteristic", "id": 3686, "title": "{'title': 'Characteristic'}", "group": "example4"}, {"label": "Symptom", "id": 3684, "title": "{'title': 'Symptom'}", "group": "example2"}, {"label": "Medical Finding", "id": 3683, "title": "{'title': 'Medical Finding'}", "group": "example1"}];
+      var edges = [{"from": 3684, "label": "is a", "to": 3683}];
+
+      var container = document.getElementById("3eff622a-69a8-4d30-a698-53592031e250");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    
