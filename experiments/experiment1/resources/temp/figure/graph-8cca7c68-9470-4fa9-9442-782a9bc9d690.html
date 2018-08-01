@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="8cca7c68-9470-4fa9-9442-782a9bc9d690"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"title": "{'authors': 'Barnet Eskin, MD, Ph; Robert Levy, MD', 'title': 'Does This Patient Have Influenza?', 'doi': 'doi.org/10.1016/j.annemergmed.2006.08.016'}", "id": 3534, "label": "doi.org/10.1016/j.annemergmed.2006.08.016", "group": "Publication"}, {"title": "{'commonName': 'Influenza', 'uri': 'http://example/h2381n'}", "id": 3535, "label": "Influenza", "group": "Disease"}];
+      var edges = [{"to": 3535, "label": "has_subject", "from": 3534}];
+
+      var container = document.getElementById("8cca7c68-9470-4fa9-9442-782a9bc9d690");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

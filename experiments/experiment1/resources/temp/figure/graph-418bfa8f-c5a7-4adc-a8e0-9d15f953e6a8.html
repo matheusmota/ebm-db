@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="418bfa8f-c5a7-4adc-a8e0-9d15f953e6a8"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"label": "Portia Dimension", "id": 3787, "title": "{'title': 'Portia Dimension'}", "group": "example2"}, {"label": "Portia Package", "id": 3784, "title": "{'title': 'Portia Package'}", "group": "example0"}, {"label": "Portia Track", "id": 3788, "title": "{'title': 'Portia Track'}", "group": "example3"}, {"label": "Portia Event", "id": 3786, "title": "{'title': 'Portia Event'}", "group": "example2"}, {"label": "Portia Config", "id": 3785, "title": "{'title': 'Portia Config'}", "group": "example1"}, {"label": "Portia Notification", "id": 3789, "title": "{'title': 'Portia Notification'}", "group": "example3"}];
+      var edges = [{"from": 3787, "label": " ", "to": 3784}, {"from": 3788, "label": " ", "to": 3786}, {"from": 3785, "label": " ", "to": 3784}, {"from": 3786, "label": " ", "to": 3784}, {"from": 3789, "label": " ", "to": 3786}];
+
+      var container = document.getElementById("418bfa8f-c5a7-4adc-a8e0-9d15f953e6a8");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

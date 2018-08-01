@@ -1,0 +1,521 @@
+---------------
+
+Clinical Feature: Peripheral arterial disease
+peripheral arterial disease (similarity of 1.0) [uri http://bmi.utah.edu/ontologies/hfontology/C1704436]
+Peripheral arterial embolism (similarity of 0.75) [uri http://bmi.utah.edu/ontologies/hfontology/C0564750]
+peripheral vascular disease (similarity of 0.7407407407407407) [uri http://bmi.utah.edu/ontologies/hfontology/C0085096]
+pericardial disease (similarity of 0.6296296296296297) [uri http://bmi.utah.edu/ontologies/hfontology/C0265122]
+coronary artery disease (similarity of 0.5925925925925926) [uri http://bmi.utah.edu/ontologies/hfontology/C0010054]
+Peripheral edema (similarity of 0.5185185185185186) [uri http://bmi.utah.edu/ontologies/hfontology/C0085649]
+Peripheral perfusion (similarity of 0.5185185185185186) [uri http://bmi.utah.edu/ontologies/hfontology/C0425710]
+intra-arterial line (similarity of 0.5185185185185186) [uri http://bmi.utah.edu/ontologies/hfontology/C0003835]
+mitral valve disease (similarity of 0.5185185185185186) [uri http://bmi.utah.edu/ontologies/hfontology/C0026265]
+mitral valvular disease (similarity of 0.5185185185185186) [uri http://bmi.utah.edu/ontologies/hfontology/C0026265]
+
+---------------
+
+Clinical Feature: Pain similar to previous ischemia
+Acute myocardial ischemia (similarity of 0.4242424242424242) [uri http://bmi.utah.edu/ontologies/hfontology/C0746731]
+ECG myocardial ischemia (similarity of 0.4242424242424242) [uri http://bmi.utah.edu/ontologies/hfontology/C0474715]
+reversible myocardial ischaemia (similarity of 0.4242424242424242) [uri http://bmi.utah.edu/ontologies/hfontology/C0010054]
+significant ischemia (similarity of 0.4242424242424242) [uri http://bmi.utah.edu/ontologies/hfontology/C0151744]
+Chronic myocardial ischemia (similarity of 0.3939393939393939) [uri http://bmi.utah.edu/ontologies/hfontology/C0264694]
+Maintaining Intravenous Access (similarity of 0.3939393939393939) [uri http://bmi.utah.edu/ontologies/hfontology/C3650989]
+Myocardial Ischemia (similarity of 0.3939393939393939) [uri http://bmi.utah.edu/ontologies/hfontology/C0151744]
+acute coronary ischemia (similarity of 0.3939393939393939) [uri http://bmi.utah.edu/ontologies/hfontology/C0948089]
+acute myocardial ischaemia (similarity of 0.3939393939393939) [uri http://bmi.utah.edu/ontologies/hfontology/C0746731]
+Myocardial ischemiaa (similarity of 0.36363636363636365) [uri http://bmi.utah.edu/ontologies/hfontology/C0151744]
+
+---------------
+
+Clinical Feature: Change in pattern during 24h
+change in diameter on inspiration (similarity of 0.5151515151515151) [uri http://bmi.utah.edu/ontologies/hfontology/T0000170]
+Angiotensin II (similarity of 0.3571428571428571) [uri http://bmi.utah.edu/ontologies/hfontology/C0003009]
+sparkling pattern (similarity of 0.3571428571428571) [uri http://bmi.utah.edu/ontologies/hfontology/T0000012]
+urine output monitoring (similarity of 0.3571428571428571) [uri http://bmi.utah.edu/ontologies/hfontology/C2919339]
+
+---------------
+
+Clinical Feature: Pain reproduced by palpation
+av node ablation (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0397406]
+periodic respiration (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C1313952]
+Increased albumin (similarity of 0.3928571428571429) [uri http://bmi.utah.edu/ontologies/hfontology/C0740469]
+Patient education (similarity of 0.3928571428571429) [uri http://bmi.utah.edu/ontologies/hfontology/C0030688]
+Prolonged QRS duration (similarity of 0.3928571428571429) [uri http://bmi.utah.edu/ontologies/hfontology/C1837848]
+brain natriuretic peptide (similarity of 0.3928571428571429) [uri http://bmi.utah.edu/ontologies/hfontology/C1095989]
+depressed lv function (similarity of 0.3928571428571429) [uri http://bmi.utah.edu/ontologies/hfontology/C0425433]
+impaired lv relaxation (similarity of 0.3928571428571429) [uri http://bmi.utah.edu/ontologies/hfontology/C2732995]
+impaired relaxation (similarity of 0.3928571428571429) [uri http://bmi.utah.edu/ontologies/hfontology/C2732995]
+increased p wave duration (similarity of 0.3928571428571429) [uri http://bmi.utah.edu/ontologies/hfontology/C0429021]
+
+---------------
+
+Clinical Feature: Ischemic ECG
+ischemia (similarity of 0.5833333333333333) [uri http://bmi.utah.edu/ontologies/hfontology/C0151744]
+ischaemia (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0151744]
+ischemic heart disease (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C0151744]
+12 lead ECG (similarity of 0.41666666666666663) [uri http://bmi.utah.edu/ontologies/hfontology/C0430456]
+12-lead ecg (similarity of 0.41666666666666663) [uri http://bmi.utah.edu/ontologies/hfontology/C0430456]
+Antilipemic agent (similarity of 0.4117647058823529) [uri http://bmi.utah.edu/ontologies/hfontology/C0003367]
+Isotonic exercise (similarity of 0.4117647058823529) [uri http://bmi.utah.edu/ontologies/hfontology/C0454287]
+Iron deficiency (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0240066]
+Ischemic cardiomyopathy (similarity of 0.3913043478260869) [uri http://bmi.utah.edu/ontologies/hfontology/C0349782]
+Systemic infection (similarity of 0.38888888888888884) [uri http://bmi.utah.edu/ontologies/hfontology/C0243026]
+
+---------------
+
+Clinical Feature: History of hypertension
+Diastolic hypertension (similarity of 0.6956521739130435) [uri http://bmi.utah.edu/ontologies/hfontology/C0235222]
+Systolic hypertension (similarity of 0.6956521739130435) [uri http://bmi.utah.edu/ontologies/hfontology/C0221155]
+control hypertension (similarity of 0.6956521739130435) [uri http://bmi.utah.edu/ontologies/hfontology/T0000120]
+systemic hypertension (similarity of 0.6521739130434783) [uri http://bmi.utah.edu/ontologies/hfontology/C0020538]
+gestational hypertension (similarity of 0.625) [uri http://bmi.utah.edu/ontologies/hfontology/C0340274]
+pulmonary venous hypertension (similarity of 0.6206896551724138) [uri http://bmi.utah.edu/ontologies/hfontology/C0020542]
+Pulmonary Hypertension (similarity of 0.6086956521739131) [uri http://bmi.utah.edu/ontologies/hfontology/C0020542]
+history of diabetes (similarity of 0.6086956521739131) [uri http://bmi.utah.edu/ontologies/hfontology/C0455488]
+severe hypertension (similarity of 0.6086956521739131) [uri http://bmi.utah.edu/ontologies/hfontology/C0020538]
+severe hypertension (similarity of 0.6086956521739131) [uri http://bmi.utah.edu/ontologies/hfontology/T0000098]
+
+---------------
+
+Clinical Feature: Sudden chest pain
+Chest Pain (similarity of 0.5882352941176471) [uri http://bmi.utah.edu/ontologies/hfontology/C0008031]
+Sudden Cardiac Death (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0085298]
+Oxygen Consumption (similarity of 0.4444444444444444) [uri http://bmi.utah.edu/ontologies/hfontology/C0030055]
+FH: Sudden infant death (similarity of 0.4347826086956522) [uri http://bmi.utah.edu/ontologies/hfontology/C0455454]
+Muscle strain (similarity of 0.4117647058823529) [uri http://bmi.utah.edu/ontologies/hfontology/C0080194]
+Weight Gain (similarity of 0.4117647058823529) [uri http://bmi.utah.edu/ontologies/hfontology/C0043094]
+ecg strain (similarity of 0.4117647058823529) [uri http://bmi.utah.edu/ontologies/hfontology/C0580357]
+Musculoskeletal Pain (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0026858]
+Added heart sounds (similarity of 0.38888888888888884) [uri http://bmi.utah.edu/ontologies/hfontology/C0425641]
+sodium restriction (similarity of 0.38888888888888884) [uri http://bmi.utah.edu/ontologies/hfontology/C0012169]
+
+---------------
+
+Clinical Feature: Tearing or ripping pain
+anginal pain (similarity of 0.3913043478260869) [uri http://bmi.utah.edu/ontologies/hfontology/C0002962]
+fasting lipid panel (similarity of 0.3913043478260869) [uri http://bmi.utah.edu/ontologies/hfontology/T0000034]
+Heart-Lung Transplantation (similarity of 0.3846153846153846) [uri http://bmi.utah.edu/ontologies/hfontology/C0018833]
+Ascending aortic dissection (similarity of 0.37037037037037035) [uri http://bmi.utah.edu/ontologies/hfontology/C1836653]
+Replacement of tricuspid valve (similarity of 0.3666666666666667) [uri http://bmi.utah.edu/ontologies/hfontology/C0190119]
+left ventricular filling pressure (similarity of 0.36363636363636365) [uri http://bmi.utah.edu/ontologies/hfontology/T0000212]
+acute aortic or mitral regurgitation (similarity of 0.36111111111111116) [uri http://bmi.utah.edu/ontologies/hfontology/C0518955]
+acute aortic or mitral regurgitation (similarity of 0.36111111111111116) [uri http://bmi.utah.edu/ontologies/hfontology/C1298807]
+acute mitral or aortic regurgitation (similarity of 0.36111111111111116) [uri http://bmi.utah.edu/ontologies/hfontology/C0518955]
+acute mitral or aortic regurgitation (similarity of 0.36111111111111116) [uri http://bmi.utah.edu/ontologies/hfontology/C1298807]
+
+---------------
+
+Clinical Feature: Migrating pain
+anginal pain (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0002962]
+mitral inflow pattern (similarity of 0.47619047619047616) [uri http://bmi.utah.edu/ontologies/hfontology/T0000089]
+sparkling pattern (similarity of 0.47058823529411764) [uri http://bmi.utah.edu/ontologies/hfontology/T0000012]
+Sitting position (similarity of 0.4375) [uri http://bmi.utah.edu/ontologies/hfontology/C0277814]
+Abdominal Pain (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0000737]
+Chest Pain (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0008031]
+Weight Gain (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0043094]
+arm pain (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0239377]
+imatinib (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0935989]
+jaw pain (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0236000]
+
+---------------
+
+Clinical Feature: Pulse deficit
+Pulse Pressure (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0949236]
+Pulse oximeter (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0182109]
+pulse oximeter (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0034063]
+Pulse irregular (similarity of 0.4666666666666667) [uri http://bmi.utah.edu/ontologies/hfontology/C0392684]
+Tissue velocity (similarity of 0.4666666666666667) [uri http://bmi.utah.edu/ontologies/hfontology/C2923493]
+Pulse Rate (similarity of 0.46153846153846156) [uri http://bmi.utah.edu/ontologies/hfontology/C0232117]
+Pulse rhythm (similarity of 0.46153846153846156) [uri http://bmi.utah.edu/ontologies/hfontology/C0425564]
+pet metabolic deficits (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/T0000005]
+Thiamine Deficiency (similarity of 0.42105263157894735) [uri http://bmi.utah.edu/ontologies/hfontology/C0039841]
+Carnitine deficiency (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C1142132]
+
+---------------
+
+Clinical Feature: Focal neurological deficit
+pet metabolic deficits (similarity of 0.46153846153846156) [uri http://bmi.utah.edu/ontologies/hfontology/T0000005]
+atrial septic defect (similarity of 0.42307692307692313) [uri http://bmi.utah.edu/ontologies/hfontology/C0018817]
+total artificial heart (similarity of 0.42307692307692313) [uri http://bmi.utah.edu/ontologies/hfontology/C0189877]
+pet baseline perfusion deficits (similarity of 0.3870967741935484) [uri http://bmi.utah.edu/ontologies/hfontology/T0000235]
+Atrial Septal Defects (similarity of 0.3846153846153846) [uri http://bmi.utah.edu/ontologies/hfontology/C0018817]
+Oral hypoglycemic (similarity of 0.3846153846153846) [uri http://bmi.utah.edu/ontologies/hfontology/C0359086]
+Pneumococcal vaccine (similarity of 0.3846153846153846) [uri http://bmi.utah.edu/ontologies/hfontology/C0358314]
+pneumococcal vaccine (similarity of 0.3846153846153846) [uri http://bmi.utah.edu/ontologies/hfontology/C0419707]
+correction of atrial septal defect (similarity of 0.3529411764705882) [uri http://bmi.utah.edu/ontologies/hfontology/C0189965]
+
+---------------
+
+Clinical Feature: Diastolic murmur
+systolic murmur (similarity of 0.8125) [uri http://bmi.utah.edu/ontologies/hfontology/C0232257]
+Systolic Murmurs (similarity of 0.75) [uri http://bmi.utah.edu/ontologies/hfontology/C0232257]
+Pansystolic murmur (similarity of 0.7222222222222222) [uri http://bmi.utah.edu/ontologies/hfontology/C0232258]
+holosystolic murmur (similarity of 0.6842105263157895) [uri http://bmi.utah.edu/ontologies/hfontology/C0232258]
+diastolic function (similarity of 0.6111111111111112) [uri http://bmi.utah.edu/ontologies/hfontology/C0232175]
+pa diastolic pressure (similarity of 0.5714285714285714) [uri http://bmi.utah.edu/ontologies/hfontology/C0428644]
+Heart murmur (similarity of 0.5625) [uri http://bmi.utah.edu/ontologies/hfontology/C0018808]
+cardiac murmur (similarity of 0.5625) [uri http://bmi.utah.edu/ontologies/hfontology/C0018808]
+lv diastolic pressures (similarity of 0.5454545454545454) [uri http://bmi.utah.edu/ontologies/hfontology/C0456190]
+Diastolic blood pressure (similarity of 0.5416666666666667) [uri http://bmi.utah.edu/ontologies/hfontology/C0428883]
+
+---------------
+
+Clinical Feature: Enlarged aorta or wide mediastinum
+enlargement of the left atrium (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C2023336]
+cardiac troponin testing (similarity of 0.38235294117647056) [uri http://bmi.utah.edu/ontologies/hfontology/C0523952]
+anti-inflammatory medications (similarity of 0.3529411764705882) [uri http://bmi.utah.edu/ontologies/hfontology/C0003209]
+enlarged heart (similarity of 0.3529411764705882) [uri http://bmi.utah.edu/ontologies/hfontology/C0018800]
+increased p wave duration (similarity of 0.3529411764705882) [uri http://bmi.utah.edu/ontologies/hfontology/C0429021]
+natriuretic peptide testing (similarity of 0.3529411764705882) [uri http://bmi.utah.edu/ontologies/hfontology/C1095989]
+noncompliance with medications (similarity of 0.3529411764705882) [uri http://bmi.utah.edu/ontologies/hfontology/C0746935]
+severe aortic regurgitation (similarity of 0.3529411764705882) [uri http://bmi.utah.edu/ontologies/hfontology/C0003504]
+severe aortic regurgitation (similarity of 0.3529411764705882) [uri http://bmi.utah.edu/ontologies/hfontology/C0302353]
+
+---------------
+
+Clinical Feature: Left ventricular hypertrophy on admission electrocardiogram
+left ventricular hypertrophy on ecg (similarity of 0.5932203389830508) [uri http://bmi.utah.edu/ontologies/hfontology/C0232306]
+Left ventricular ejection fraction decreased (similarity of 0.5084745762711864) [uri http://bmi.utah.edu/ontologies/hfontology/C1096403]
+Left Ventricular Hypertrophy (similarity of 0.47457627118644063) [uri http://bmi.utah.edu/ontologies/hfontology/C0149721]
+Left ventricular systolic dysfunction (similarity of 0.47457627118644063) [uri http://bmi.utah.edu/ontologies/hfontology/C1277187]
+Left ventricular diastolic dysfunction (similarity of 0.4576271186440678) [uri http://bmi.utah.edu/ontologies/hfontology/C1273070]
+Left ventricular ejection fraction (similarity of 0.4576271186440678) [uri http://bmi.utah.edu/ontologies/hfontology/C0428772]
+Left ventricular end-diastolic dimension (similarity of 0.4576271186440678) [uri http://bmi.utah.edu/ontologies/hfontology/C1142231]
+left ventricular ejection fraction and volumes (similarity of 0.4576271186440678) [uri http://bmi.utah.edu/ontologies/hfontology/C0428772]
+left ventricular ejection fraction and volumes (similarity of 0.4576271186440678) [uri http://bmi.utah.edu/ontologies/hfontology/C0455832]
+left ventricular ejection fraction and volumes (similarity of 0.4576271186440678) [uri http://bmi.utah.edu/ontologies/hfontology/C0455833]
+
+---------------
+
+Clinical Feature: Pain in chest or left arm
+weight increases or decreases (similarity of 0.4137931034482759) [uri http://bmi.utah.edu/ontologies/hfontology/C0043094]
+weight increases or decreases (similarity of 0.4137931034482759) [uri http://bmi.utah.edu/ontologies/hfontology/C0043096]
+Patient Care Team (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0030679]
+enlargement of the left atrium (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C2023336]
+Beam Radiation of Chest using Electrons (similarity of 0.3846153846153846) [uri http://bmi.utah.edu/ontologies/hfontology/C2459409]
+Catheterization of left heart (similarity of 0.3793103448275862) [uri http://bmi.utah.edu/ontologies/hfontology/C0189897]
+x-ray of chest: mass of heart (similarity of 0.3793103448275862) [uri http://bmi.utah.edu/ontologies/hfontology/C2073462]
+Partial excision of left ventricle of heart (similarity of 0.37209302325581395) [uri http://bmi.utah.edu/ontologies/hfontology/C1997931]
+apical impulse displaced leftward (similarity of 0.36363636363636365) [uri http://bmi.utah.edu/ontologies/hfontology/C0558758]
+chest pressure (similarity of 0.36) [uri http://bmi.utah.edu/ontologies/hfontology/C0438716]
+
+---------------
+
+Clinical Feature: Chest pain radiation: Right shoulder
+chest irradiation (similarity of 0.4444444444444444) [uri http://bmi.utah.edu/ontologies/hfontology/C2459409]
+chest pain or pressure (similarity of 0.4444444444444444) [uri http://bmi.utah.edu/ontologies/hfontology/C0008031]
+chest pain or pressure (similarity of 0.4444444444444444) [uri http://bmi.utah.edu/ontologies/hfontology/C0438716]
+thoracic radiation therapy (similarity of 0.41666666666666663) [uri http://bmi.utah.edu/ontologies/hfontology/C2459409]
+Catheterization of right heart (similarity of 0.38888888888888884) [uri http://bmi.utah.edu/ontologies/hfontology/C0189896]
+cancer radiation therapy (similarity of 0.38888888888888884) [uri http://bmi.utah.edu/ontologies/hfontology/C0920418]
+chest radiographs (similarity of 0.38888888888888884) [uri http://bmi.utah.edu/ontologies/hfontology/C0039985]
+Pleural effusion disorder (similarity of 0.36111111111111116) [uri http://bmi.utah.edu/ontologies/hfontology/C0032227]
+Respiration intermittent (similarity of 0.36111111111111116) [uri http://bmi.utah.edu/ontologies/hfontology/C1313952]
+chest radiograph (similarity of 0.36111111111111116) [uri http://bmi.utah.edu/ontologies/hfontology/C0039985]
+
+---------------
+
+Clinical Feature: Chest pain radiation: Left arm
+chest irradiation (similarity of 0.5333333333333333) [uri http://bmi.utah.edu/ontologies/hfontology/C2459409]
+chest pain or pressure (similarity of 0.4666666666666667) [uri http://bmi.utah.edu/ontologies/hfontology/C0008031]
+chest pain or pressure (similarity of 0.4666666666666667) [uri http://bmi.utah.edu/ontologies/hfontology/C0438716]
+thoracic radiation therapy (similarity of 0.4666666666666667) [uri http://bmi.utah.edu/ontologies/hfontology/C2459409]
+cancer radiation therapy (similarity of 0.43333333333333335) [uri http://bmi.utah.edu/ontologies/hfontology/C0920418]
+Catheter Ablation, Electric (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0162559]
+Catheterization of left heart (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0189897]
+chest infection (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/T0000261]
+chest radiograph (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0039985]
+coordination of care (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C3509247]
+
+---------------
+
+Clinical Feature: Chest pain radiation: left and right arm
+Catheterization of right heart (similarity of 0.42500000000000004) [uri http://bmi.utah.edu/ontologies/hfontology/C0189896]
+chest irradiation (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C2459409]
+thoracic radiation therapy (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C2459409]
+Catheterization of left heart (similarity of 0.375) [uri http://bmi.utah.edu/ontologies/hfontology/C0189897]
+cancer radiation therapy (similarity of 0.375) [uri http://bmi.utah.edu/ontologies/hfontology/C0920418]
+chest pain or pressure (similarity of 0.375) [uri http://bmi.utah.edu/ontologies/hfontology/C0008031]
+chest pain or pressure (similarity of 0.375) [uri http://bmi.utah.edu/ontologies/hfontology/C0438716]
+inflammation of the heart (similarity of 0.375) [uri http://bmi.utah.edu/ontologies/hfontology/C0014118]
+restriction of sodium (similarity of 0.375) [uri http://bmi.utah.edu/ontologies/hfontology/C0012169]
+Beam Radiation of Chest using Electrons (similarity of 0.35) [uri http://bmi.utah.edu/ontologies/hfontology/C2459409]
+
+---------------
+
+Clinical Feature: Chest pain most important symptom
+chest pain or pressure (similarity of 0.48484848484848486) [uri http://bmi.utah.edu/ontologies/hfontology/C0008031]
+chest pain or pressure (similarity of 0.48484848484848486) [uri http://bmi.utah.edu/ontologies/hfontology/C0438716]
+Chest dull to percussion (similarity of 0.3939393939393939) [uri http://bmi.utah.edu/ontologies/hfontology/C0238997]
+chest infection (similarity of 0.36363636363636365) [uri http://bmi.utah.edu/ontologies/hfontology/T0000261]
+
+---------------
+
+Clinical Feature: History of myocardial infarction
+History of myocardial infarction (similarity of 1.0) [uri http://bmi.utah.edu/ontologies/hfontology/C1275835]
+Old myocardial infarction (similarity of 0.71875) [uri http://bmi.utah.edu/ontologies/hfontology/C0155668]
+acute myocardial infarction (similarity of 0.71875) [uri http://bmi.utah.edu/ontologies/hfontology/C0155626]
+post-myocardial infarction (similarity of 0.71875) [uri http://bmi.utah.edu/ontologies/hfontology/C0152107]
+st-elevation myocardial infarction (similarity of 0.6764705882352942) [uri http://bmi.utah.edu/ontologies/hfontology/C1536220]
+Acute posterior myocardial infarction (similarity of 0.6756756756756757) [uri http://bmi.utah.edu/ontologies/hfontology/C0340318]
+Myocardial Infarction (similarity of 0.65625) [uri http://bmi.utah.edu/ontologies/hfontology/C0027051]
+History of cardiac arrest (similarity of 0.625) [uri http://bmi.utah.edu/ontologies/hfontology/C1997578]
+Myocardial infarctiona (similarity of 0.625) [uri http://bmi.utah.edu/ontologies/hfontology/C0027051]
+ST segment elevation myocardial infarction (similarity of 0.5952380952380952) [uri http://bmi.utah.edu/ontologies/hfontology/C1536220]
+
+---------------
+
+Clinical Feature: Nausea or vomiting
+abuse of cocaine (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0009171]
+nuclear imaging (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0024485]
+nuclear imaging (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/T0000093]
+Vomiting (similarity of 0.4444444444444444) [uri http://bmi.utah.edu/ontologies/hfontology/C0042963]
+Venous blood sampling (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0190979]
+cardiac troponin testing (similarity of 0.41666666666666663) [uri http://bmi.utah.edu/ontologies/hfontology/C0523952]
+nuclear stress testing (similarity of 0.40909090909090906) [uri http://bmi.utah.edu/ontologies/hfontology/C2825165]
+24-hour holter monitoring (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C2046759]
+Cardiovascular monitoring (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0161959]
+ambulatory ecg monitoring (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0013799]
+
+---------------
+
+Clinical Feature: Diaphoresis
+Diaphoresis (similarity of 1.0) [uri http://bmi.utah.edu/ontologies/hfontology/C0700590]
+Diaphoretic (similarity of 0.8181818181818181) [uri http://bmi.utah.edu/ontologies/hfontology/C1707737]
+Diuresis (similarity of 0.6363636363636364) [uri http://bmi.utah.edu/ontologies/hfontology/C0012797]
+dialysis (similarity of 0.5454545454545454) [uri http://bmi.utah.edu/ontologies/hfontology/C0011946]
+Anorexia (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C0003123]
+Cyanosis (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C0010520]
+Diuretics (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C0012798]
+Dizziness (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C0012833]
+diabetes (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C0011849]
+diuretic (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C0012798]
+
+---------------
+
+Clinical Feature: Third heart sound on auscultation
+third heart sound (similarity of 0.5151515151515151) [uri http://bmi.utah.edu/ontologies/hfontology/C0232237]
+Heart-Lung Transplantation (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C0018833]
+cardiac surgery consultation (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C0584044]
+Added heart sounds (similarity of 0.4242424242424242) [uri http://bmi.utah.edu/ontologies/hfontology/C0425641]
+Heart Transplantation (similarity of 0.4242424242424242) [uri http://bmi.utah.edu/ontologies/hfontology/C0018823]
+Heart sounds abnormal (similarity of 0.4242424242424242) [uri http://bmi.utah.edu/ontologies/hfontology/C0577822]
+cardiac catheterization and revascularization (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0010055]
+cardiac catheterization and revascularization (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0018795]
+Heart failure education (similarity of 0.3939393939393939) [uri http://bmi.utah.edu/ontologies/hfontology/C1828111]
+Peripheral oxygen saturation (similarity of 0.3939393939393939) [uri http://bmi.utah.edu/ontologies/hfontology/C2317096]
+
+---------------
+
+Clinical Feature: Hypotension (systolic blood pressure 80 mm Hg)
+low systolic blood pressure (similarity of 0.5434782608695652) [uri http://bmi.utah.edu/ontologies/hfontology/C0277885]
+elevated diastolic blood pressure (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0277889]
+systolic and diastolic blood pressure (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0428883]
+systolic and diastolic blood pressure (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0871470]
+systolic blood pressure (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0871470]
+Diastolic blood pressure (similarity of 0.4782608695652174) [uri http://bmi.utah.edu/ontologies/hfontology/C0428883]
+Orthostatic blood pressure (similarity of 0.4565217391304348) [uri http://bmi.utah.edu/ontologies/hfontology/C1095971]
+hemodynamic blood pressure monitoring (similarity of 0.4565217391304348) [uri http://bmi.utah.edu/ontologies/hfontology/C0161959]
+continuous blood pressure monitoring (similarity of 0.4347826086956522) [uri http://bmi.utah.edu/ontologies/hfontology/C0005825]
+control of blood pressure (similarity of 0.4347826086956522) [uri http://bmi.utah.edu/ontologies/hfontology/C0003364]
+
+---------------
+
+Clinical Feature: Pulmonary crackles on auscultation
+Pulmonary congestion (similarity of 0.5294117647058824) [uri http://bmi.utah.edu/ontologies/hfontology/C0242073]
+Pulmonary venous congestion (similarity of 0.5294117647058824) [uri http://bmi.utah.edu/ontologies/hfontology/C0582411]
+pulmonary crackles (similarity of 0.5294117647058824) [uri http://bmi.utah.edu/ontologies/hfontology/C0034642]
+pulmonary crepitations (similarity of 0.5294117647058824) [uri http://bmi.utah.edu/ontologies/hfontology/C0034642]
+pulmonary vascular redistribution (similarity of 0.5294117647058824) [uri http://bmi.utah.edu/ontologies/hfontology/C0239041]
+Pulmonary Artery Catheterization (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0190658]
+pulmonary function testing (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0024119]
+pulmonary function testing (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0428642]
+PULMONARY EDEMA INTERSTITIAL (similarity of 0.47058823529411764) [uri http://bmi.utah.edu/ontologies/hfontology/C0748120]
+Pulmonary Hypertension (similarity of 0.47058823529411764) [uri http://bmi.utah.edu/ontologies/hfontology/C0020542]
+
+---------------
+
+Clinical Feature: Pleuritic chest pain
+Chest Pain (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0008031]
+diuretic therapy (similarity of 0.44999999999999996) [uri http://bmi.utah.edu/ontologies/hfontology/C1273483]
+genetic testing (similarity of 0.44999999999999996) [uri http://bmi.utah.edu/ontologies/hfontology/C0679560]
+periodic respiration (similarity of 0.44999999999999996) [uri http://bmi.utah.edu/ontologies/hfontology/C1313952]
+Rheumatic Heart Disease (similarity of 0.4347826086956522) [uri http://bmi.utah.edu/ontologies/hfontology/C0035439]
+Hepatic congestion (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0267821]
+Weight Gain (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0043094]
+diuretic medication (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0012798]
+diuretic regimen (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C1273483]
+diuretic treatment (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C1273483]
+
+---------------
+
+Clinical Feature: Chest pain sharp or stabbing 
+chest pain or pressure (similarity of 0.5172413793103448) [uri http://bmi.utah.edu/ontologies/hfontology/C0008031]
+chest pain or pressure (similarity of 0.5172413793103448) [uri http://bmi.utah.edu/ontologies/hfontology/C0438716]
+Cessation of smoking (similarity of 0.3793103448275862) [uri http://bmi.utah.edu/ontologies/hfontology/C0085134]
+chest irradiation (similarity of 0.3793103448275862) [uri http://bmi.utah.edu/ontologies/hfontology/C2459409]
+diastolic stress testing (similarity of 0.3793103448275862) [uri http://bmi.utah.edu/ontologies/hfontology/C2036196]
+history of smoking (similarity of 0.3793103448275862) [uri http://bmi.utah.edu/ontologies/hfontology/C2114448]
+left main stenosis (similarity of 0.3793103448275862) [uri http://bmi.utah.edu/ontologies/hfontology/C2062905]
+left main coronary artery stenosis (similarity of 0.3529411764705882) [uri http://bmi.utah.edu/ontologies/hfontology/C2062905]
+
+---------------
+
+Clinical Feature: Positional chest pain
+transitional care planning (similarity of 0.5384615384615384) [uri http://bmi.utah.edu/ontologies/hfontology/C0281735]
+gestational hypertension (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0340274]
+Chest Pain (similarity of 0.47619047619047616) [uri http://bmi.utah.edu/ontologies/hfontology/C0008031]
+Rotational Atherectomy (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C0162655]
+proportional pulse pressure (similarity of 0.4444444444444444) [uri http://bmi.utah.edu/ontologies/hfontology/C0949236]
+Abdominal Pain (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0000737]
+Emotional Stress (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0086209]
+anginal pain (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0002962]
+conventional mechanical ventilation (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0199470]
+exertional dyspnea (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0231807]
+
+---------------
+
+Clinical Feature: Chest pain reproduced by palpation
+Heart failure education (similarity of 0.4411764705882353) [uri http://bmi.utah.edu/ontologies/hfontology/C1828111]
+chest irradiation (similarity of 0.4411764705882353) [uri http://bmi.utah.edu/ontologies/hfontology/C2459409]
+Hawthorn preparation (similarity of 0.4117647058823529) [uri http://bmi.utah.edu/ontologies/hfontology/C0600416]
+chest infection (similarity of 0.4117647058823529) [uri http://bmi.utah.edu/ontologies/hfontology/T0000261]
+chest pain or pressure (similarity of 0.4117647058823529) [uri http://bmi.utah.edu/ontologies/hfontology/C0008031]
+chest pain or pressure (similarity of 0.4117647058823529) [uri http://bmi.utah.edu/ontologies/hfontology/C0438716]
+Chest dull to percussion (similarity of 0.38235294117647056) [uri http://bmi.utah.edu/ontologies/hfontology/C0238997]
+Cheyne-Stokes Respiration (similarity of 0.38235294117647056) [uri http://bmi.utah.edu/ontologies/hfontology/C0008039]
+Hypertension induced by pregnancy (similarity of 0.38235294117647056) [uri http://bmi.utah.edu/ontologies/hfontology/C0340274]
+Left ventricular dilatation (similarity of 0.38235294117647056) [uri http://bmi.utah.edu/ontologies/hfontology/C0344911]
+
+---------------
+
+Clinical Feature: New ST-segment elevation 1 mm
+st-segment elevation (similarity of 0.6896551724137931) [uri http://bmi.utah.edu/ontologies/hfontology/C0520886]
+ST segment elevation (finding) (similarity of 0.5333333333333333) [uri http://bmi.utah.edu/ontologies/hfontology/C0520886]
+st-segment elevation or depression (similarity of 0.5294117647058824) [uri http://bmi.utah.edu/ontologies/hfontology/C0520886]
+st-segment elevation or depression (similarity of 0.5294117647058824) [uri http://bmi.utah.edu/ontologies/hfontology/C0520887]
+st elevation mi (similarity of 0.48275862068965514) [uri http://bmi.utah.edu/ontologies/hfontology/C1536220]
+st-segment depression (similarity of 0.48275862068965514) [uri http://bmi.utah.edu/ontologies/hfontology/C0520887]
+short deceleration time (similarity of 0.4137931034482759) [uri http://bmi.utah.edu/ontologies/hfontology/C2059597]
+ST segment elevation myocardial infarction (similarity of 0.40476190476190477) [uri http://bmi.utah.edu/ontologies/hfontology/C1536220]
+low estimated glomerular filtration rate (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0853068]
+Deceleration time (similarity of 0.3793103448275862) [uri http://bmi.utah.edu/ontologies/hfontology/C3655614]
+
+---------------
+
+Clinical Feature: New Q wave
+Anterior Q wave (similarity of 0.6) [uri http://bmi.utah.edu/ontologies/hfontology/C2242519]
+anterior q waves (similarity of 0.5625) [uri http://bmi.utah.edu/ontologies/hfontology/C2242519]
+A wave (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C2599617]
+Presence of Q wave (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C1305739]
+abnormal q waves (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0438159]
+q waves (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C1287077]
+presence of q waves (similarity of 0.4736842105263158) [uri http://bmi.utah.edu/ontologies/hfontology/C1305739]
+giant v waves (similarity of 0.46153846153846156) [uri http://bmi.utah.edu/ontologies/hfontology/T0000035]
+large a waves (similarity of 0.46153846153846156) [uri http://bmi.utah.edu/ontologies/hfontology/C2599617]
+heart rate (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0018810]
+
+---------------
+
+Clinical Feature: Any ST-segment elevation
+st-segment elevation (similarity of 0.8333333333333334) [uri http://bmi.utah.edu/ontologies/hfontology/C0520886]
+st-segment depression (similarity of 0.5833333333333333) [uri http://bmi.utah.edu/ontologies/hfontology/C0520887]
+ST segment elevation (finding) (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0520886]
+assisted ventilation (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0554804]
+invasive ventilation (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C1868981]
+st-segment elevation or depression (similarity of 0.47058823529411764) [uri http://bmi.utah.edu/ontologies/hfontology/C0520886]
+st-segment elevation or depression (similarity of 0.47058823529411764) [uri http://bmi.utah.edu/ontologies/hfontology/C0520887]
+Dyspnea on exertion (similarity of 0.45833333333333337) [uri http://bmi.utah.edu/ontologies/hfontology/C0231807]
+Patient education (similarity of 0.45833333333333337) [uri http://bmi.utah.edu/ontologies/hfontology/C0030688]
+Systemic infection (similarity of 0.41666666666666663) [uri http://bmi.utah.edu/ontologies/hfontology/C0243026]
+
+---------------
+
+Clinical Feature: New conduction defect
+Intraventricular conduction defect (similarity of 0.5882352941176471) [uri http://bmi.utah.edu/ontologies/hfontology/C0264909]
+intraventricular conduction defects (similarity of 0.5714285714285714) [uri http://bmi.utah.edu/ontologies/hfontology/C0264909]
+interventricular conduction delay (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/T0000074]
+intraventricular conduction delay (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C3697597]
+Low sodium diet (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0012169]
+atrial septic defect (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0018817]
+liver function test (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C0023901]
+Weight reduction regimen (similarity of 0.41666666666666663) [uri http://bmi.utah.edu/ontologies/hfontology/C0311130]
+conduction disturbance (similarity of 0.40909090909090906) [uri http://bmi.utah.edu/ontologies/hfontology/C0232219]
+conduction disturbances (similarity of 0.3913043478260869) [uri http://bmi.utah.edu/ontologies/hfontology/C0232219]
+
+---------------
+
+Clinical Feature: New ST-segment depression
+st-segment depression (similarity of 0.84) [uri http://bmi.utah.edu/ontologies/hfontology/C0520887]
+st-segment elevation (similarity of 0.6) [uri http://bmi.utah.edu/ontologies/hfontology/C0520886]
+Mental Depression (similarity of 0.52) [uri http://bmi.utah.edu/ontologies/hfontology/C0011570]
+stv5 depression (similarity of 0.52) [uri http://bmi.utah.edu/ontologies/hfontology/T0000026]
+ST segment depression (finding) (similarity of 0.5161290322580645) [uri http://bmi.utah.edu/ontologies/hfontology/C0520887]
+st-segment elevation or depression (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0520886]
+st-segment elevation or depression (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0520887]
+Natural immunosuppression (similarity of 0.43999999999999995) [uri http://bmi.utah.edu/ontologies/hfontology/C0021080]
+neck-vein distention (similarity of 0.43999999999999995) [uri http://bmi.utah.edu/ontologies/hfontology/C1167958]
+Therapeutic immunosuppression (similarity of 0.4137931034482759) [uri http://bmi.utah.edu/ontologies/hfontology/C0021079]
+
+---------------
+
+Clinical Feature: Any Q wave
+giant v waves (similarity of 0.6153846153846154) [uri http://bmi.utah.edu/ontologies/hfontology/T0000035]
+A wave (similarity of 0.6) [uri http://bmi.utah.edu/ontologies/hfontology/C2599617]
+Anterior Q wave (similarity of 0.6) [uri http://bmi.utah.edu/ontologies/hfontology/C2242519]
+abnormal q waves (similarity of 0.5625) [uri http://bmi.utah.edu/ontologies/hfontology/C0438159]
+anterior q waves (similarity of 0.5625) [uri http://bmi.utah.edu/ontologies/hfontology/C2242519]
+large a waves (similarity of 0.5384615384615384) [uri http://bmi.utah.edu/ontologies/hfontology/C2599617]
+q waves (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C1287077]
+Presence of Q wave (similarity of 0.4444444444444444) [uri http://bmi.utah.edu/ontologies/hfontology/C1305739]
+presence of q waves (similarity of 0.42105263157894735) [uri http://bmi.utah.edu/ontologies/hfontology/C1305739]
+plan of care (similarity of 0.41666666666666663) [uri http://bmi.utah.edu/ontologies/hfontology/C0178916]
+
+---------------
+
+Clinical Feature: Any ST-segment depression
+st-segment depression (similarity of 0.84) [uri http://bmi.utah.edu/ontologies/hfontology/C0520887]
+st-segment elevation (similarity of 0.6) [uri http://bmi.utah.edu/ontologies/hfontology/C0520886]
+Mental Depression (similarity of 0.52) [uri http://bmi.utah.edu/ontologies/hfontology/C0011570]
+stv5 depression (similarity of 0.52) [uri http://bmi.utah.edu/ontologies/hfontology/T0000026]
+ST segment depression (finding) (similarity of 0.5161290322580645) [uri http://bmi.utah.edu/ontologies/hfontology/C0520887]
+st-segment elevation or depression (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0520886]
+st-segment elevation or depression (similarity of 0.5) [uri http://bmi.utah.edu/ontologies/hfontology/C0520887]
+systemic hypertension (similarity of 0.43999999999999995) [uri http://bmi.utah.edu/ontologies/hfontology/C0020538]
+Dyspnea on exertion (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0231807]
+Natural immunosuppression (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0021080]
+
+---------------
+
+Clinical Feature: T-wave peaking and/or inversion 1 mm
+atrial size and dimensions (similarity of 0.36111111111111116) [uri http://bmi.utah.edu/ontologies/hfontology/T0000119]
+
+---------------
+
+Clinical Feature: New T-wave inversion
+Self-care interventions (similarity of 0.4782608695652174) [uri http://bmi.utah.edu/ontologies/hfontology/C0036592]
+dobutamine infusion (similarity of 0.44999999999999996) [uri http://bmi.utah.edu/ontologies/hfontology/C2025522]
+left atrial dimension (similarity of 0.4285714285714286) [uri http://bmi.utah.edu/ontologies/hfontology/C3275097]
+Mental Depression (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0011570]
+Systemic infection (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0243026]
+T wave alternans (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C1998313]
+Uncontrolled hypertension (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C1868885]
+Viral infection (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0042769]
+chest infection (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/T0000261]
+hiv infection (similarity of 0.4) [uri http://bmi.utah.edu/ontologies/hfontology/C0019693]
+
+---------------
+
+Clinical Feature: Any conduction defect
+Intraventricular conduction defect (similarity of 0.5882352941176471) [uri http://bmi.utah.edu/ontologies/hfontology/C0264909]
+intraventricular conduction defects (similarity of 0.5714285714285714) [uri http://bmi.utah.edu/ontologies/hfontology/C0264909]
+atrial septic defect (similarity of 0.47619047619047616) [uri http://bmi.utah.edu/ontologies/hfontology/C0018817]
+intraventricular conduction delay (similarity of 0.4545454545454546) [uri http://bmi.utah.edu/ontologies/hfontology/C3697597]
+interventricular conduction delay (similarity of 0.4242424242424242) [uri http://bmi.utah.edu/ontologies/hfontology/T0000074]
+conduction disturbance (similarity of 0.40909090909090906) [uri http://bmi.utah.edu/ontologies/hfontology/C0232219]
+alcohol consumption history (similarity of 0.40740740740740744) [uri http://bmi.utah.edu/ontologies/hfontology/C0001948]
+conduction disturbances (similarity of 0.3913043478260869) [uri http://bmi.utah.edu/ontologies/hfontology/C0232219]
+pet baseline perfusion deficits (similarity of 0.3870967741935484) [uri http://bmi.utah.edu/ontologies/hfontology/T0000235]
+Atrial Septal Defects (similarity of 0.38095238095238093) [uri http://bmi.utah.edu/ontologies/hfontology/C0018817]
+

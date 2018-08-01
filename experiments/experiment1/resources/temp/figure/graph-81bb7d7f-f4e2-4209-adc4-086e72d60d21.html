@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="81bb7d7f-f4e2-4209-adc4-086e72d60d21"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"label": "Portia Package", "id": 3778, "title": "{'title': 'Portia Package'}", "group": "example0"}, {"label": "Portia Notification", "id": 3783, "title": "{'title': 'Portia Notification'}", "group": "example3"}, {"label": "Portia Event", "id": 3780, "title": "{'title': 'Portia Event'}", "group": "example2"}, {"label": "Portia Track", "id": 3782, "title": "{'title': 'Portia Track'}", "group": "example3"}, {"label": "Portia Config", "id": 3779, "title": "{'title': 'Portia Config'}", "group": "example1"}, {"label": "Portia Dimension", "id": 3781, "title": "{'title': 'Portia Dimension'}", "group": "example2"}];
+      var edges = [{"from": 3783, "label": " ", "to": 3780}, {"from": 3782, "label": " ", "to": 3780}, {"from": 3780, "label": " ", "to": 3778}, {"from": 3779, "label": " ", "to": 3778}];
+
+      var container = document.getElementById("81bb7d7f-f4e2-4209-adc4-086e72d60d21");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

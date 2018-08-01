@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="a1896765-4e95-40c7-b624-fad15c14cd69"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"label": "Characteristic", "id": 3700, "title": "{'title': 'Characteristic'}", "group": "example4"}, {"label": "Finding", "id": 3696, "title": "{'title': 'Finding'}", "group": "example0"}, {"label": "Medical Finding              ", "id": 3697, "title": "{'title': 'Medical Finding              '}", "group": "example1"}, {"label": "Sign", "id": 3699, "title": "{'title': 'Sign'}", "group": "example3"}, {"label": "Symptom", "id": 3698, "title": "{'title': 'Symptom'}", "group": "example2"}];
+      var edges = [{"from": 3700, "label": "is a", "to": 3696}, {"from": 3697, "label": "is a", "to": 3696}, {"from": 3699, "label": "is a", "to": 3697}, {"from": 3698, "label": "is a", "to": 3697}];
+
+      var container = document.getElementById("a1896765-4e95-40c7-b624-fad15c14cd69");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

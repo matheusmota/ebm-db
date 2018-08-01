@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="5fde9452-0b98-4922-8339-4a9369e6f4ba"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"title": "{'commonName': 'Influenza', 'uri': 'http://example/h2381n'}", "id": 3533, "label": "Influenza", "group": "Disease"}, {"title": "{'commonName': 'Influenza', 'uri': 'http://example/h2381n'}", "id": 3531, "label": "Influenza", "group": "Disease"}, {"title": "{'authors': 'Barnet Eskin, MD, Ph; Robert Levy, MD', 'title': 'Does This Patient Have Influenza?', 'doi': 'doi.org/10.1016/j.annemergmed.2006.08.016'}", "id": 3532, "label": "doi.org/10.1016/j.annemergmed.2006.08.016", "group": "Publication"}, {"title": "{'authors': 'Barnet Eskin, MD, Ph; Robert Levy, MD', 'title': 'Does This Patient Have Influenza?', 'doi': 'doi.org/10.1016/j.annemergmed.2006.08.016'}", "id": 3530, "label": "doi.org/10.1016/j.annemergmed.2006.08.016", "group": "Publication"}];
+      var edges = [{"to": 3533, "label": "has_subject", "from": 3532}, {"to": 3531, "label": "has_subject", "from": 3530}];
+
+      var container = document.getElementById("5fde9452-0b98-4922-8339-4a9369e6f4ba");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

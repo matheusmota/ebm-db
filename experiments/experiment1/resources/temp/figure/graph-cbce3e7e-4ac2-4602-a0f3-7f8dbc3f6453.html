@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="cbce3e7e-4ac2-4602-a0f3-7f8dbc3f6453"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"label": "Feverishness", "group": "Finding", "id": 3940, "title": "{'title': 'Feverishness'}"}, {"label": "doi.org/10.1016/j.annemergmed.2006.08.016", "group": "Publication", "id": 3938, "title": "{'title': 'Does This Patient Have Influenza?', 'authors': 'Barnet Eskin, MD, Ph; Robert Levy, MD', 'doi': 'doi.org/10.1016/j.annemergmed.2006.08.016'}"}, {"label": "Influenza", "group": "Disease", "id": 3939, "title": "{'commonName': 'Influenza', 'uri': 'http://example/h2381n'}"}, {"label": "age >= 60", "group": "Finding", "id": 3941, "title": "{'title': 'age >= 60'}"}];
+      var edges = [{"label": "has_subject", "from": 3938, "to": 3939}, {"label": "presence", "from": 3939, "to": 3941}, {"label": "[LR+: 2.1 (1.2\u20133.7)] [LR-: NS]", "from": 3939, "to": 3940}];
+
+      var container = document.getElementById("cbce3e7e-4ac2-4602-a0f3-7f8dbc3f6453");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

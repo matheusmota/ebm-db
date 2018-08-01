@@ -1,0 +1,51 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../../lib/vis/dist/vis.js"></script>
+      <link                         href="../../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+    <div id="bc4c2569-a825-479b-92a6-322f6c2b99c8"></div>
+
+    <script type="text/javascript">
+      var nodes = [{"label": "Medical Finding", "id": 3677, "title": "{'title': 'Medical Finding'}", "group": "example1"}, {"label": "Symptom", "id": 3678, "title": "{'title': 'Symptom'}", "group": "example2"}];
+      var edges = [];
+
+      var container = document.getElementById("bc4c2569-a825-479b-92a6-322f6c2b99c8");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    

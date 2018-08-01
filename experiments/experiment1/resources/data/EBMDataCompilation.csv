@@ -1,0 +1,62 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+Disease,Source Type,Survey Ref,SurveyUrl,Article,Studies,n, n with disease,Group,Clinical Feature,CI LR+,LR+,LR+ floor,LR+ ceilling,CI LR-,LR-,LR- floor,LR- ceiling,Title
+Acute Coronary Syndrome,Article,Sharif2017,http://art,compilation,3,6034,,Cardiac risk factors,Peripheral arterial disease,95%,2.70,1.50,4.80,95%,0.96,0.94,0.98,Does This Patient With Chest Pain Have Acute Coronary Syndrome
+Acute Coronary Syndrome,Article,Sharif2017,http://art,compilation,1,2718,,Chest pain characteristics,Pain similar to previous ischemia,95%,2.20,2.00,2.60,95%,0.67,0.6,0.74,Does This Patient With Chest Pain Have Acute Coronary Syndrome
+Acute Coronary Syndrome,Article,Sharif2017,http://art,compilation,1,2718,,Chest pain characteristics,Change in pattern during 24h,95%,2.00,1.60,2.50,95%,0.84,0.79,0.9,Does This Patient With Chest Pain Have Acute Coronary Syndrome
+Acute Coronary Syndrome,Article,Sharif2017,http://art,compilation,1,839,,Physical examination elements,Pain reproduced by palpation,95%,0.28,0.14,0.54,95%,1.20,1,1.2,Does This Patient With Chest Pain Have Acute Coronary Syndrome
+Acute Coronary Syndrome,Article,Sharif2017,http://art,compilation,7,16559,,Performance of ECG,Ischemic ECG,95%,3.60,1.60,5.70,95%,0.74,0.68,0.81,Does This Patient With Chest Pain Have Acute Coronary Syndrome
+Aortic Dissection,Article,klompas2002,http://articleb,Chan1991,1,40,18,Clinical feature,History of hypertension,95%,1.50,0.80,3.00,95%,0.70,0.4,1.3,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Enia1989,1,46,35,Clinical feature,History of hypertension,95%,1.10,0.70,1.60,95%,0.70,0.4,2.4,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,VonKodolitsch2000,1,250,128,Clinical feature,History of hypertension,95%,1.80,1.40,2.30,95%,0.40,0.3,0.6,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,compilation,3,336,181,Clinical feature,History of hypertension,95%,1.60,1.20,2.00,95%,0.50,0.3,0.7,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Chan1991,1,40,18,Clinical feature,Sudden chest pain,95%,1.00,0.70,1.40,95%,0.98,0.3,3.1,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Armstrong1998,1,75,34,Clinical feature,Sudden chest pain,95%,1.50,1.10,1.90,95%,0.30,0.1,0.8,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,VonKodolitsch2000,1,250,128,Clinical feature,Sudden chest pain,95%,2.60,2.00,2.40,95%,0.30,0.2,0.4,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,compilation,3,365,180,Clinical feature,Sudden chest pain,95%,1.60,1.00,2.40,95%,0.30,0.2,0.5,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Armstrong1998,1,75,34,Chest pain characteristics,Tearing or ripping pain,95%,1.20,0.20,8.10,95%,0.99,0.9,1.1,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,VonKodolitsch2000,1,250,128,Chest pain characteristics,Tearing or ripping pain,95%,10.80,5.20,22.00,95%,0.40,0.3,0.5,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Chan1991,1,40,18,Chest pain characteristics,Migrating pain,95%,1.10,0.50,2.40,95%,0.97,0,1.6,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,VonKodolitsch2000,1,250,128,Chest pain characteristics,Migrating pain,95%,7.60,3.60,16.00,95%,0.60,0.5,0.7,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Armstrong1998,1,75,34,Clinical feature,Pulse deficit,95%,2.40,0.50,12.00,95%,0.93,0.8,1.1,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Enia1989,1,46,35,Clinical feature,Pulse deficit,95%,2.70,0.70,9.80,95%,0.63,0.4,1,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,VonKodolitsch2000,1,250,128,Clinical feature,Pulse deficit,95%,47.00,6.60,333.00,95%,0.62,0.5,0.7,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,compilation,3,371,197,Clinical feature,Pulse deficit,95%,5.70,1.40,23.00,95%,0.70,0.6,0.9,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Armstrong1998,1,75,34,Clinical feature,Focal neurological deficit,95%,6.60,1.60,28.00,95%,0.71,0.6,0.9,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,VonKodolitsch2000,1,250,128,Clinical feature,Focal neurological deficit,95%,33.00,2.00,549.00,95%,0.87,0.8,0.9,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Chan1991,1,40,18,Clinical feature,Diastolic murmur,95%,4.90,0.60,40.00,95%,0.80,0.6,1.1,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Armstrong1998,1,75,34,Clinical feature,Diastolic murmur,95%,1.20,0.40,3.80,95%,0.97,0.8,1.2,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Enia1989,1,46,35,Clinical feature,Diastolic murmur,95%,0.90,0.50,1.70,95%,1.10,0.6,1.7,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,VonKodolitsch2000,1,250,128,Clinical feature,Diastolic murmur,95%,1.70,1.10,2.50,95%,0.79,0.6,0.9,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,compilation,3,411,215,Clinical feature,Diastolic murmur,95%,1.40,1.00,2.00,95%,0.90,0.8,1,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Chan1991,1,40,18,Clinical feature,Enlarged aorta or wide mediastinum,95%,1.60,1.10,2.30,95%,0.13,0.02,1,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Armstrong1998,1,75,34,Clinical feature,Enlarged aorta or wide mediastinum,95%,1.60,1.10,2.20,95%,0.42,0.2,0.9,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,VonKodolitsch2000,1,250,128,Clinical feature,Enlarged aorta or wide mediastinum,95%,3.40,2.40,4.80,95%,0.31,0.2,0.4,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,compilation,3,365,180,Clinical feature,Enlarged aorta or wide mediastinum,95%,2.00,1.40,3.10,95%,0.30,0.2,0.4,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Chan1991,1,40,18,Electrocardiogram Feature,Left ventricular hypertrophy on admission electrocardiogram,95%,0.20,0.13,1.90,95%,1.20,0.9,1.6,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Aortic Dissection,Article,klompas2002,http://articleb,Armstrong1998,1,75,34,Electrocardiogram Feature,Left ventricular hypertrophy on admission electrocardiogram,95%,3.20,1.50,6.80,95%,0.84,0.7,0.9,Does This Patient Have an Acute Thoracic Aortic Dissection?
+Myocardial Infarction,Article,panju1998,http://articlec,pozen1984,1,-,-,Clinical feature,Pain in chest or left arm,95%,2.70,2.70,2.70,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,lee1986,1,-,-,Clinical feature,Chest pain radiation: Right shoulder,95%,2.90,1.40,6.00,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,berger1990,1,-,-,Clinical feature,Chest pain radiation: Left arm,95%,2.30,1.70,3.10,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,berger1990,1,-,-,Clinical feature,Chest pain radiation: left and right arm,95%,7.10,3.60,14.20,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,pozen1984,1,-,-,Clinical feature,Chest pain most important symptom,95%,2.00,2.00,2.00,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Clinical feature,History of myocardial infarction,95%,2.25,1.50,3.00,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Clinical feature,Nausea or vomiting,95%,1.90,1.70,2.30,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Clinical feature,Diaphoresis,95%,2.00,1.90,2.20,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,lee1986,1,-,-,Clinical feature,Third heart sound on auscultation,95%,3.20,1.60,6.50,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,weaver1990,1,-,-,Clinical feature,Hypotension (systolic blood pressure 80 mm Hg),95%,3.10,1.80,5.20,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,lee1986,1,-,-,Clinical feature,Pulmonary crackles on auscultation,95%,2.10,1.40,3.10,-,-,-,-,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Clinical feature,Pleuritic chest pain,-,-,-,-,95%,0.20,0.2,0.3,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Clinical feature,Chest pain sharp or stabbing ,-,-,-,-,95%,0.30,0.2,0.5,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Clinical feature,Positional chest pain,-,-,-,-,95%,0.30,0.2,0.4,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Clinical feature,Chest pain reproduced by palpation,-,-,-,-,95%,0.20,0.2,0.4,Is This Patient Having a Myocardial Infarction?
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Electrocardiogram Feature,New ST-segment elevation 1 mm,,,,,,,,,
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Electrocardiogram Feature,New Q wave,,,,,,,,,
+Myocardial Infarction,Article,panju1998,http://articlec,lee1986,1,-,-,Electrocardiogram Feature,Any ST-segment elevation,,,,,,,,,
+Myocardial Infarction,Article,panju1998,http://articlec,lee1986,1,-,-,Electrocardiogram Feature,New conduction defect,,,,,,,,,
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Electrocardiogram Feature,New ST-segment depression,,,,,,,,,
+Myocardial Infarction,Article,panju1998,http://articlec,lee1986,1,-,-,Electrocardiogram Feature,Any Q wave,,,,,,,,,
+Myocardial Infarction,Article,panju1998,http://articlec,lee1986,1,-,-,Electrocardiogram Feature,Any ST-segment depression,,,,,,,,,
+Myocardial Infarction,Article,panju1998,http://articlec,pozen1984,1,-,-,Electrocardiogram Feature,T-wave peaking and/or inversion 1 mm,,,,,,,,,
+Myocardial Infarction,Article,panju1998,http://articlec,compilation,1,-,-,Electrocardiogram Feature,New T-wave inversion,,,,,,,,,
+Myocardial Infarction,Article,panju1998,http://articlec,lee1986,1,-,-,Electrocardiogram Feature,Any conduction defect,,,,,,,,,
